@@ -1,0 +1,571 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: #0066CC; */
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin-bottom: 20px; */
+}
+
+/* hero section background image */
+.hero-section {
+background-image: url(../assest/hero_apple_vision_pro_avail__ecthwv10twsy_large.jpg);
+background-size: cover;
+height: 94vh;
+background-position: center;
+
+}
+
+/* header navigation bar */
+.hero-section ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 13px 16.5%;
+    font-size: 14px;
+    backdrop-filter: blur(15px);
+    background-color: #121212;
+    opacity: 0.8;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.hero-section ul li a{
+    color: #b3b5b7;
+    text-decoration: none;
+}
+
+.hero-section ul li a:hover {
+    color: aliceblue;
+}
+
+
+/* hero section logo vison pro */
+.vison-pro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 68%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 29px;
+}
+
+/* vison pro navigation bar */
+.navigation-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 50px;
+    
+}
+
+.navigation-1 a:first-child {
+    position: relative;
+    left: 30px;
+}
+
+.navigation-1 a:last-child {
+    position: relative;
+    right: 30px;
+}
+
+
+.vison-pro nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #0066CC;
+}
+
+.vison-pro nav a:hover {
+    text-decoration: underline;
+}
+
+/* horizontal line */
+hr {
+    width: 100%;
+    border: 7px solid white;
+}
+
+/* features section */
+
+/* features section 1 */
+
+.row {
+    background-image: url(../assest/hero_iphone15pro__i70z9oz3hj2i_large.jpg);
+    background-size: cover;
+    height: 88vh;
+    background-position: center;
+    }
+
+.text-col {
+display: grid;
+align-items: center;
+justify-content: center;
+text-align: center;
+color: white;
+position: relative;
+top: 12%;
+}
+
+.text-col h1 {
+    font-size: 57px;
+    line-height: 80px;
+
+}
+
+.text-col h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/* iphone 15 nav link */
+.navigation-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 50px;
+}
+
+.navigation-2 a:first-child {
+    position: relative;
+    left: 30px;
+}
+
+.navigation-2 a:last-child {
+    position: relative;
+    right: 30px;
+}
+
+.navigation-2 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #0066CC;
+}
+
+.navigation-2 a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* features section 2 */
+.row-1{
+    background-image: url(../assest/hero_iphone15_announce__uuemlcwczn6u_large.jpg);
+    background-size: cover;
+    height: 87vh;
+    background-position: center;
+    }
+
+    .text-col-1 {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: black;
+        position: relative;
+        top: 12%;
+        }
+        
+        .text-col-1 h1 {
+            font-size: 57px;
+            line-height: 80px;
+        
+        }
+        
+        .text-col-1 h2 {
+            font-size: 30px;
+            font-weight: 400;
+        }
+        
+        /* iphone 15 nav link */
+        .navigation-3{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            line-height: 50px;
+        }
+        
+        .navigation-3 a:first-child {
+            position: relative;
+            left: 30px;
+        }
+        
+        .navigation-3 a:last-child {
+            position: relative;
+            right: 30px;
+        }
+        
+        .navigation-3 a{
+            text-decoration: none;
+            font-size: 20px;
+            color: #0066CC;
+        }
+        
+        .navigation-3 a:hover {
+            text-decoration: underline;
+        }
+
+        /* features section 3 */
+        /* row 2 */
+    
+    .row-2 {
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+
+    }
+
+
+    /* column 1 */
+    .text-col-2 {
+        background-image: url(../assest/promo_valentines_day_2024__bbgmf6gk911u_large.jpg);
+        height: 73vh;
+        width: 48.3%;
+        background-position: center;
+
+        text-align: center;
+        color: black;
+    }
+
+    .valentine {
+        position: relative;
+        top: 70%;
+        font-size: 20px;
+        line-height: 36px;
+    }
+    .valentine h2 {
+        font-size: 22px;
+        font-weight: 200;
+    }
+    .valentine a {
+        text-decoration: none;
+        color: #0066CC;
+    }
+    .valentine a:hover {
+        text-decoration: underline;
+    }
+
+    /* column 2 */
+    .text-col-3 {
+        background-image: url(../assest/promo_apple_watch_series_9_order__b3u85rm9zf6u_large.jpg);
+        height: 73vh;
+        width: 48.3%;
+        background-position: center;
+    }
+
+    .watch-logo {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: white;
+        position: relative;
+        top: 10%;
+        line-height: 36px;
+        font-size: 15px;
+    }
+
+    .watch-logo h2 {
+        font-size: 23px;
+        font-weight: 300;
+    }
+
+    
+    .navigation-4 a {
+        text-decoration: none;
+        color: #0066CC;
+        font-size: 18px;
+        
+    }
+
+    .navigation-4 a:first-child {
+        position: relative;
+        right: 26px;
+    }
+
+    .navigation-4 a:last-child {
+        position: relative;
+        left: 26px;
+    }
+    
+
+
+    /* features section 4 */
+    /* row 4 */
+    .row-3 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+     
+         }
+     
+     
+         /* column 1 */
+         .text-col-4 {
+             background-image: url(../assest/promo_mbp__ek7p477bkp6q_large.jpg);
+             height: 73vh;
+             width: 48.3%;
+             background-position: center;
+     
+             text-align: center;
+             color: black;
+         }
+     
+         .valentine {
+             position: relative;
+             top: 10%;
+             font-size: 20px;
+             line-height: 36px;
+         }
+         .valentine h2 {
+             font-size: 22px;
+             font-weight: 200;
+         }
+         .valentine a {
+             text-decoration: none;
+             color: #0066CC;
+         }
+         .valentine a:hover {
+             text-decoration: underline;
+         }
+     
+         /* column 2 */
+         .text-col-5 {
+             background-image: url(../assest/promo_fitness_usher__brgf1f57usc2_large.jpg);
+             height: 73vh;
+             width: 48.3%;
+             background-position: center;
+         }
+     
+         .watch-logo {
+             display: block;
+             align-items: center;
+             justify-content: center;
+             text-align: center;
+             color: white;
+             position: relative;
+             top: 10%;
+             line-height: 36px;
+             font-size: 15px;
+         }
+     
+         .watch-logo h2 {
+             font-size: 23px;
+             font-weight: 300;
+         }
+     
+         
+         .navigation-5 a {
+             text-decoration: none;
+             color: white;
+             font-size: 18px;
+             
+         }
+         .navigation-5 a:hover {
+            text-decoration: underline;
+         }
+     
+         .navigation-5 a:first-child {
+             position: relative;
+             right: 26px;
+         }
+     
+         .navigation-5 a:last-child {
+             position: relative;
+             left: 26px;
+         }
+         
+
+         /* features section 5 */
+
+         /* column 1 */
+
+         .row-4 {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+         
+             }
+
+             .text-col-6 {
+                background-image: url(../assest/tile__cauwwcyyn9hy_large.jpg);
+                height: 73vh;
+                width: 48.3%;
+                background-position: center;
+            }
+        
+            .watch-logo {
+                display: block;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                color: black;
+                position: relative;
+                top: 10%;
+                line-height: 36px;
+                font-size: 15px;
+            }
+        
+            .watch-logo h2 {
+                font-size: 23px;
+                font-weight: 300;
+            }
+        
+            
+            .navigation-6 a {
+                text-decoration: none;
+                color: #0066CC;
+                font-size: 18px;
+                
+            }
+            .navigation-6 a:hover {
+               text-decoration: underline;
+            }
+        
+            .navigation-6 a:first-child {
+                position: relative;
+                right: 26px;
+            }
+        
+            .navigation-6 a:last-child {
+                position: relative;
+                left: 26px;
+            }
+
+              /* column 2 */
+              .text-col-7 {
+                background-image: url(../assest/promo_iphone_tradein__bugw15ka691e_large.jpg);
+                height: 73vh;
+                width: 48.3%;
+                background-position: center;
+            }
+        
+            .watch-logo {
+                display: block;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                color: black;
+                position: relative;
+                top: 10%;
+                line-height: 36px;
+                font-size: 15px;
+            }
+        
+            .watch-logo h2 {
+                font-size: 23px;
+                font-weight: 300;
+            }
+        
+            
+            .navigation-7 a {
+                text-decoration: none;
+                color: #0066CC;
+                font-size: 18px;
+                
+            }
+            .navigation-7 a:hover {
+               text-decoration: underline;
+            }
+        
+
+    /* footer section */
+
+    .footer-section {
+        width: 66%;
+        text-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 17%;
+        right: 17%;
+        top: 30px;
+        bottom: 30px;
+    }
+
+    .paragraph {
+        font-size: 13px;
+        font-weight: 100;
+        color: #4e4f50;
+        line-height: 15px;
+    }
+
+    #bottomLine {
+        width: 100%;
+        border: 0.5px solid #8e8989;
+        position: relative;
+        top: 45px;
+    }
+
+    /* footer section */
+    .footer-content {
+        display: flex;
+        align-items: normal;
+        justify-content: space-between;
+        position: relative;
+        top: 80px;
+        list-style: none;
+    }
+
+    .rowss ul{
+        list-style: none;
+        color: #4e4f50;
+        font-size: 13px; 
+        line-height: 24px; 
+        cursor: pointer;
+    }
+    .rowss li:hover {
+        text-decoration: underline;
+    }
+
+    .Heading li:first-child {
+        font-weight: 700;
+        color: #5d5a5a;
+        margin-top: 16px;
+        cursor: auto;
+    }
+
+    .Heading li:first-child:hover {
+        text-decoration: none;
+    }
+
+    .paragraph-1 {
+        font-size: 13px;
+        font-weight: 100;
+        color: #4e4f50 ;
+        position: relative;
+        top: 100px;
+    }
+    .paragraph-1 span {
+        color: #0066CC;
+        text-decoration: underline;
+        cursor: pointer;
+    }
+        
+          
+    #bottomLine-1 {
+        width: 100%;
+        border: 0.5px solid #8e8989;
+        position: relative;
+        top: 130px;
+    }
+
+
+    .copyright {
+        font-size: 13px;
+        font-weight: 100;
+        color: #4e4f50;
+        position: relative;
+        top: 155px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
